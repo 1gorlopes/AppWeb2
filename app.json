@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "UrbanWRLD",
+    "slug": "UrbanWRLD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoblack.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoblack.png",
+      "resizeMode": "contain",
+      "backgroundColor": "black"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "black"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
